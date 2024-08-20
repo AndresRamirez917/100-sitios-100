@@ -148,6 +148,13 @@ form button:hover {
 #mainheader .navbar .fa {
   margin-top: 2rem;
 }
+#mainheader .navbar .badge {
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 2px;
+  margin-left: -6px;
+}
 #mainheader .navbar .container {
   display: flex;
   justify-content: space-between;

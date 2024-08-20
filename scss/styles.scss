@@ -55,6 +55,7 @@ ul {
 
 .btn-1 {
     background: grey;
+    width: fit-content;
     color: #000;
     &:hover {
         background: rgb(82, 81, 81);
@@ -70,11 +71,12 @@ ul {
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 6rem;
     margin: 2rem 0;
     color: #fff;
     font-weight: 300;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .title-2 {
@@ -86,9 +88,10 @@ ul {
 }
 
 .subtitle {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 300;
     text-align: left;
+    text-transform: capitalize;
     color: #000;
     margin: 2rem 0;
 }
@@ -161,6 +164,95 @@ form {
             width: 100%;
         }
 
+    }
+}
+
+//showcase
+#showcase {
+    background: url("/img/showcase-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .showcase-content {
+        padding-top: 20rem;
+        padding-bottom: 3rem;
+        .showcase-block {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+          
+            p {
+                color: #fff;
+                font-size: 1.5rem;
+            }
+            .btn {
+                display: block;
+                margin: 0 auto;
+                margin-top: 3rem;
+            }
+        }
+      
+    }
+}
+
+//showcase-products
+#showcase-products {
+    .container {
+        .products-flex {
+            .flexbox-1 {
+                &-image {
+                    opacity: 1;
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    transition: .5s ease;
+                    backface-visibility: hidden;
+                  }
+                  &-middle {
+                    transition: .5s ease;
+                    opacity: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    text-align: center;
+                  }
+                  .features {
+                    margin-top: 1rem;
+                    justify-content: space-between;
+                    .name {
+                        font-weight: 300;
+                        
+                    }
+                   
+                    .price {
+                  text-align: right;
+                  font-weight: 300;
+                    }
+                  }
+                }
+                .flexbox-1:hover .flexbox-1-image{
+                  opacity: 0.3;
+                }
+                .flexbox-1:hover .flexbox-1-middle{
+                  opacity: 1;
+                }
+        }
+    }
+}
+
+//contact
+#contact {
+    width: 70%;
+    margin: 0 auto;
+    .container {
+        form {
+            .flexbox {
+                flex: 1;
+            }
+        }
     }
 }
 

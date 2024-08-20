@@ -96,9 +96,9 @@ ul {
     margin: 2rem 0;
 }
 
-img {
-    max-width: 100%;
-}
+ img {
+     max-width: 100%;
+ }
 
 .flex {
     display: flex;
@@ -201,44 +201,43 @@ form {
     .container {
         .products-flex {
             .flexbox-1 {
-                &-image {
+                .flexbox-1-image {
                     opacity: 1;
                     display: block;
                     width: 100%;
                     height: auto;
                     transition: .5s ease;
-                    backface-visibility: hidden;
+                    //backface-visibility: hidden;
                   }
-                  &-middle {
-                    transition: .5s ease;
-                    opacity: 0;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    -ms-transform: translate(-50%, -50%);
-                    text-align: center;
-                  }
+                //   .flexbox-1-middle {                 
+                //     transition: .5s ease;
+                //     opacity: 0;
+                //     position: absolute;
+                //     top: 50%;
+                //     left: 50%;
+                //     transform: translate(-50%, -50%);
+                //     -ms-transform: translate(-50%, -50%);
+                //     text-align: center;
+                //   }
+                
                   .features {
-                    margin-top: 1rem;
+                    margin-bottom: 1rem;
                     justify-content: space-between;
                     .name {
                         font-weight: 300;
                         
                     }
-                   
                     .price {
-                  text-align: right;
                   font-weight: 300;
                     }
                   }
                 }
                 .flexbox-1:hover .flexbox-1-image{
-                  opacity: 0.3;
+                  opacity: .7;
                 }
-                .flexbox-1:hover .flexbox-1-middle{
-                  opacity: 1;
-                }
+                // .flexbox-1:hover .flexbox-1-middle{
+                //   opacity: 1;
+                // }
         }
     }
 }

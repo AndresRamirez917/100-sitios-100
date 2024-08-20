@@ -121,6 +121,7 @@ form .form-control:focus {
   border: 1px solid blue;
 }
 form button {
+  width: 100%;
   background: #000;
   color: #fff;
 }

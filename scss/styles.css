@@ -90,6 +90,7 @@ ul {
   color: #000;
   font-weight: 300;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .subtitle {
@@ -210,6 +211,32 @@ form button:hover {
 }
 #showcase-products .container .products-flex .flexbox-1:hover .flexbox-1-image {
   opacity: 0.7;
+}
+
+#shop {
+  width: 90%;
+  margin: 0 auto;
+}
+#shop .container .shop-flex .flexbox-left {
+  margin-right: 100px;
+}
+#shop .container .shop-flex .shop-images {
+  gap: 100px;
+}
+#shop .container .shop-flex .shop-images .madre-flex {
+  margin-bottom: 1rem;
+}
+#shop .container .shop-flex .shop-images .madre-flex a img {
+  width: 100%;
+}
+#shop .container .shop-flex .shop-images .madre-flex .flexbox-1 .features {
+  justify-content: space-between;
+}
+#shop .container .shop-flex .shop-images .madre-flex .flexbox-1 .features .price {
+  font-weight: 300;
+}
+#shop .container .shop-flex .shop-images .madre-flex .flexbox-1 .features .name {
+  font-weight: 300;
 }
 
 #contact {

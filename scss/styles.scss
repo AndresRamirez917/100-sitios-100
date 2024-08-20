@@ -85,6 +85,7 @@ ul {
     color: #000;
     font-weight: 300;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .subtitle {
@@ -239,6 +240,46 @@ form {
                 //   opacity: 1;
                 // }
         }
+    }
+}
+
+//shop
+#shop {
+    width: 90%;
+    margin: 0 auto;
+    .container {
+        .shop-flex {
+            .flexbox-left {
+                margin-right: 100px;
+                .shop-list {
+                
+                }
+
+            }
+            .shop-images {
+                gap: 100px;
+                .madre-flex {
+                    margin-bottom: 1rem;
+                    a {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .flexbox-1 {
+                        .features {
+                            justify-content: space-between;
+                            .price {
+                                font-weight: 300;
+                            }
+                            .name {
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+ 
     }
 }
 

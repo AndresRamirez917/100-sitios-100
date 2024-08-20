@@ -259,6 +259,30 @@ form button:hover {
   font-weight: 300;
 }
 
+#articles {
+  width: 90%;
+  margin: 0 auto;
+}
+#articles .container .articles-flex img {
+  width: 40%;
+}
+#articles .container .articles-flex .articles-content h2 {
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+#articles .container .articles-flex .articles-content p {
+  margin-bottom: 1rem;
+  line-height: 30px;
+}
+#articles .container .articles-flex .articles-content h4 {
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+#articles .container .articles-flex .articles-content .btn {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 #contact {
   width: 70%;
   margin: 0 auto;

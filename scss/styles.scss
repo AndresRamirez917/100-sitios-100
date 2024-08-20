@@ -276,7 +276,6 @@ form {
                     }
                 }
                 }
-
             }
             .shop-images {
                 gap: 100px;
@@ -301,7 +300,36 @@ form {
                 }
             }
         }
- 
+    }
+
+    //articles
+    #articles {
+        width: 90%;
+        margin: 0 auto;
+        .container {
+            .articles-flex {
+                img {
+                    width: 40%;
+                }
+                .articles-content {
+                    h2 {
+                        margin-bottom: 2rem;
+                        font-weight: 300;
+                    }
+                    p {
+                        margin-bottom: 1rem;
+                        line-height: 30px;
+                    }
+                    h4 {
+                        margin-bottom: 2rem;
+                        font-weight: 400;
+                    }
+                    .btn {
+                        width: fit-content;
+                    }
+                }
+            }
+        }
     }
 
 

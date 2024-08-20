@@ -251,8 +251,30 @@ form {
         .shop-flex {
             .flexbox-left {
                 margin-right: 100px;
+                    .form-inline {
+                        display: flex;
+                        gap: 5px;
+                        input {
+                            padding: 10px;
+                        }
+                    }
+                }
                 .shop-list {
-                
+                    h2 {
+                        margin: 2rem 0;
+                        text-transform: uppercase;
+                        font-weight: 300;
+                    }
+                ul {
+                    li {
+                        font-size: 1.2rem;
+                        padding: .5rem 0;
+                        font-weight: 300;
+                    }
+                    .list-flex {
+                        justify-content: space-between;
+                    }
+                }
                 }
 
             }
@@ -281,7 +303,7 @@ form {
         }
  
     }
-}
+
 
 //contact
 #contact {

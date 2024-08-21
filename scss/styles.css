@@ -141,6 +141,7 @@ form button:hover {
 #mainheader .navbar ul {
   display: flex;
   margin: 2rem 0;
+  padding-bottom: 2rem;
 }
 #mainheader .navbar ul .logo {
   font-size: 2rem;

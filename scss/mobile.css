@@ -18,4 +18,25 @@
 #showcase-products .container .products-flex {
   display: block;
   margin: 0 auto;
+}
+
+#shop .container .shop-flex {
+  display: block;
+}
+#shop .container .shop-flex .flexbox-left .form-inline .btn {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#shop .container .shop-flex .flexbox-left .shop-list {
+  margin-bottom: 2rem;
+}
+
+#articles .container .articles-flex {
+  display: block;
+}
+#articles .container .articles-flex img {
+  width: 100%;
+}
+#articles .container .articles-flex .articles-content p {
+  text-align: justify;
 }/*# sourceMappingURL=mobile.css.map */

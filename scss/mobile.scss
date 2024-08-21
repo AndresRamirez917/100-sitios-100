@@ -31,3 +31,39 @@
         }
     }
 }
+
+//shop
+#shop {
+    .container {
+        .shop-flex {
+            display: block;
+            .flexbox-left {
+                .form-inline {
+                    .btn {
+                        width: fit-content;
+                    }          
+                }
+                .shop-list {
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+}
+
+//articles
+#articles {
+    .container {
+        .articles-flex {
+            display: block;
+            img {
+                width: 100%;
+            }
+            .articles-content {
+                p {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

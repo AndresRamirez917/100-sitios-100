@@ -200,7 +200,7 @@ form button:hover {
   transition: 0.5s ease;
 }
 #showcase-products .container .products-flex .flexbox-1 .features {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   justify-content: space-between;
 }
 #showcase-products .container .products-flex .flexbox-1 .features .name {
@@ -248,6 +248,7 @@ form button:hover {
 }
 #shop .container .shop-images .madre-flex a img {
   width: 100%;
+  margin-bottom: 1rem;
 }
 #shop .container .shop-images .madre-flex .flexbox-1 .features {
   justify-content: space-between;

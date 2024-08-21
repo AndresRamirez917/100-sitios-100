@@ -174,15 +174,13 @@ form {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     .showcase-content {
         padding-top: 20rem;
         padding-bottom: 3rem;
         .showcase-block {
             display: block;
             margin: 0 auto;
-            text-align: center;
-          
+            text-align: center;        
             p {
                 color: #fff;
                 font-size: 1.5rem;
@@ -222,7 +220,7 @@ form {
                 //   }
                 
                   .features {
-                    margin-bottom: 1rem;
+                    margin: 1rem 0;
                     justify-content: space-between;
                     .name {
                         font-weight: 300;
@@ -284,6 +282,7 @@ form {
                     a {
                         img {
                             width: 100%;
+                            margin-bottom: 1rem;
                         }
                     }
                     .flexbox-1 {

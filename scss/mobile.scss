@@ -1,3 +1,26 @@
+//mainheader
+#mainheader {
+    .navbar {
+        ul {
+            display: block;
+            margin: 0 auto;
+            .logo {
+                display: block;
+                margin: 0 auto;
+                padding: 1rem 0;
+            }
+
+        }
+        .fa {
+            margin-top: 1.4rem;
+        }
+        .container {
+            justify-content: center;
+            width: 90%;
+        }
+    }
+}
+
 //showcase-products
 #showcase-products {
     .container {

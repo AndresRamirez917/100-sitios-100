@@ -31,11 +31,15 @@
   margin-bottom: 2rem;
 }
 
+#articles .container .subtitle {
+  font-size: 4rem;
+}
 #articles .container .articles-flex {
   display: block;
 }
 #articles .container .articles-flex img {
   width: 100%;
+  margin-bottom: 1rem;
 }
 #articles .container .articles-flex .articles-content p {
   text-align: justify;

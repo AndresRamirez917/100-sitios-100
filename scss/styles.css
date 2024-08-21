@@ -183,6 +183,9 @@ form button:hover {
   margin: 0 auto;
   text-align: center;
 }
+#showcase .showcase-content .showcase-block .title {
+  font-size: 3rem;
+}
 #showcase .showcase-content .showcase-block p {
   color: #fff;
   font-size: 1.5rem;

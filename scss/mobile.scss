@@ -54,10 +54,14 @@
 //articles
 #articles {
     .container {
+        .subtitle {
+            font-size: 4rem;
+        }
         .articles-flex {
             display: block;
             img {
                 width: 100%;
+                margin-bottom: 1rem;
             }
             .articles-content {
                 p {
